@@ -290,7 +290,14 @@ option {
 }
 
 @media (max-width: 330px) {
-  .flex-container {
-    flex-direction: column;
-  }
+    .MainContainer, .ProtocolContainer, .SendContainer, .RecieveContainer, .FeesContainer {
+      width: 320px;
+    }
+    
+    .Line, .RateFeeContainer {
+      width: 290px;
+    }
+    
+
+
 }
