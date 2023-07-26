@@ -297,7 +297,9 @@ option {
     .Line, .RateFeeContainer {
       width: 290px;
     }
-    
 
-
+    .SendContainer, .RecieveContainer {
+        flex-direction: column;
+        gap: 10px;
+    }
 }
