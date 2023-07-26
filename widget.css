@@ -87,7 +87,7 @@
 
 .SendContainer {
   display: flex;
-  width: 382px;
+  width: 450px;
   padding: 16px;
   justify-content: space-between;
   align-items: center;
@@ -183,7 +183,7 @@
 
 .RecieveContainer {
   display: flex;
-  width: 382px;
+  width: 450px;
   padding: 16px;
   justify-content: space-between;
   align-items: center;
@@ -200,14 +200,14 @@
 }
 
 .Line {
-    width: 382px;
+    width: 450px;
     height: 1px;
     background: rgba(255, 255, 255, 0.10);
 }
 
 .RateFeeContainer {
     display: flex;
-    width: 382px;
+    width: 450px;
     justify-content: space-between;
     align-items: flex-start;
 }
