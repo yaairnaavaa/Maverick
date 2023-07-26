@@ -170,7 +170,7 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    width: 110px;
+    width: 150px;
 }
 
 .TokenAmountPreview {
@@ -287,4 +287,10 @@
 option {
     background: rgb(45,47,48) !important;
     color: white !important;
+}
+
+@media (max-width: 330px) {
+  .flex-container {
+    flex-direction: column;
+  }
 }
