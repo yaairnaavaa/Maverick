@@ -284,6 +284,15 @@
     line-height: normal;
 }
 
+.TokenInsufficientBalance {
+    color: rgb(255 0 0 / 60%);
+    font-family: Inter;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
 option {
     background: rgb(45,47,48) !important;
     color: white !important;
