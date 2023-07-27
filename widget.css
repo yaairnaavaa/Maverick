@@ -85,7 +85,7 @@
   gap: 2px;
 }
 
-.SendContainer {
+. {
   display: flex;
   width: 450px;
   padding: 16px;
@@ -290,8 +290,12 @@ option {
 }
 
 @media (max-width: 400px) {
-    .MainContainer, .ProtocolContainer, .SendContainer, .RecieveContainer, .FeesContainer {
+    .MainContainer, .ProtocolContainer, .FeesContainer {
       width: 320px;
+    }
+
+    .SendContainer, .RecieveContainer {
+      width: 300px;
     }
     
     .Line, .RateFeeContainer {
