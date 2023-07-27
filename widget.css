@@ -303,7 +303,7 @@ option {
         gap: 15px;
     }
 
-    .TokenSection, .TokenAmountSection {
+    .TokenSection, .TokenAmountSection, .TokenAmountInput {
         width: 100%;
     }
 }
