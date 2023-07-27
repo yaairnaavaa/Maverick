@@ -296,15 +296,12 @@ option {
 
     .SendContainer, .RecieveContainer {
       width: 300px;
+      flex-direction: column;
+      gap: 15px;
     }
     
     .Line, .RateFeeContainer {
       width: 290px;
-    }
-
-    .SendContainer, .RecieveContainer {
-        flex-direction: column;
-        gap: 15px;
     }
 
     .TokenSection, .TokenAmountSection, .TokenAmountInput {
