@@ -85,7 +85,7 @@
   gap: 2px;
 }
 
-. {
+.SendContainer {
   display: flex;
   width: 450px;
   padding: 16px;
