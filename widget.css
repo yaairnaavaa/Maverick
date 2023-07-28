@@ -182,6 +182,10 @@
     line-height: normal;
 }
 
+.UserBalance {
+    cursor: pointer;
+}
+
 .RecieveContainer {
   display: flex;
   width: 450px;
