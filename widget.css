@@ -338,6 +338,11 @@ option {
     background: rgb(45,46,47);
 }
 
+.turnButton:hover{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgb(141, 141, 253);
+}
+
 .turnImg {
     user-select: none;
     display: inline-block;
