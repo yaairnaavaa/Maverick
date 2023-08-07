@@ -303,14 +303,14 @@ option {
     color: white !important;
 }
 
-turnSection {
+.turnSection {
     width: 100%;
     display: flex;
     -webkit-box-pack: center;
     justify-content: center;
 }
 
-turnButton {
+.turnButton {
     display: inline-flex;
     -webkit-box-align: center;
     align-items: center;
@@ -338,7 +338,7 @@ turnButton {
     background: rgb(45,46,47);
 }
 
-turnImg {
+.turnImg {
     user-select: none;
     display: inline-block;
     fill: currentcolor;
