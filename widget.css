@@ -354,6 +354,25 @@ option {
     width: 20px;
 }
 
+.titleSection {
+    display: flex;
+    padding: 8px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    width: 100%;
+}
+
+.titleSwap {
+    margin: 0px;
+    font-family: BaselGrotesk, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    display: block;
+    color: white;
+}
+
 @media (max-width: 400px) {
     .MainContainer, .ProtocolContainer, .FeesContainer {
       width: 320px;
