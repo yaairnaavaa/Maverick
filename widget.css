@@ -211,14 +211,14 @@
     background: rgba(255, 255, 255, 0.10);
 }
 
-.RateFeeContainer {
+.RecipientContainer {
     display: flex;
     width: 450px;
     justify-content: space-between;
     align-items: flex-start;
 }
 
-.RateFeeText {
+.RecipientText {
     color: rgba(255, 255, 255, 0.60);
     font-family: Inter;
     font-size: 10px;
@@ -227,7 +227,7 @@
     line-height: normal;
 }
 
-.RateFeeValue {
+.RecipientValue {
     color: #8D8DFD;
     text-align: right;
     font-family: Inter;
@@ -383,7 +383,7 @@ option {
       gap: 15px;
     }
     
-    .Line, .RateFeeContainer {
+    .Line, .RecipientContainer {
       width: 290px;
     }
 
