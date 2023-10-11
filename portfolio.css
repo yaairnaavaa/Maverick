@@ -87,8 +87,8 @@
 
 .SendContainer {
   display: flex;
-  margin: "auto", 
-  width: "460px",
+  margin: auto; 
+  width: 460px;
   padding: 16px;
   justify-content: space-between;
   align-items: center;
