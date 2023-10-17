@@ -1,0 +1,440 @@
+.MainContainer {
+    width: 490px;
+    height: 500px;
+    display: inline-flex;
+    padding: 8px 8px 16px 8px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    border-radius: 14px;
+    background: #151718;
+}
+
+.ProtocolContainer {
+    display: flex;
+    width: 400px;
+    padding: 0px 8px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+.ProtocolNetworkContainet {
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    gap: 8px;
+}
+
+.ProtocolNetworkTextSection {
+    display: flex;
+    padding: 4px 8px 4px 4px;
+    align-items: center;
+}
+
+.ProtocolImg {
+    width: 16px;
+    height: 16px;
+    border-radius: 16px;
+}
+
+.ProtocolText {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Inter;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.ProtocolNetworkSection {
+    display: flex;
+    padding: 4px 8px 4px 4px;
+    align-items: center;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.10);
+}
+
+.ProtocolNetworkContainer {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.NetworkText {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.Container {
+    display: flex;
+    width: 380px;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px 8px 8px 8px;
+    background: rgba(255, 255, 255, 0.10);
+}
+
+.ContainerDistributionMode {
+    display: flex;
+    width: 380px;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px 8px 8px 8px;
+    background: rgba(255, 255, 255, 0.10);
+}
+
+.ContainerTokenA {
+    display: flex;
+    width: 380px;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px 8px 8px 8px;
+    background: rgba(255, 255, 255, 0.10);
+}
+
+.ContainerTokenB {
+    display: flex;
+    width: 380px;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px 8px 8px 8px;
+    background: rgba(255, 255, 255, 0.10);
+}
+
+.ContainerPoolMode {
+    height: 70px;
+    display: flex;
+    width: 220px;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px 8px 8px 8px;
+    background: rgba(255, 255, 255, 0.10);
+}
+
+.TokenSection {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.TokenImg {
+    width: 32px;
+    height: 32px;
+}
+
+.TokenNameSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+.TokenAction {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Inter;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.TokenName {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.TokenNameSelect {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: none;
+    border: none;
+}
+
+.DistributionNameSelect {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: none;
+    border: none;
+}
+
+.TokenAmountSection {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 2px;
+}
+
+.TokenAmount {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.TokenAmountInput {
+    color: #FFF;
+    text-align: right;
+    background: none;
+    border: 0;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 150px;
+}
+
+.TokenAmountPreview {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Inter;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.UserBalance {
+    cursor: pointer;
+    color: rgb(141, 141, 253);
+}
+
+.Line {
+    width: 450px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.10);
+}
+
+.ConfirmButton {
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 4px;
+    background: #8D8DFD;
+}
+
+.ConfirmButtonDisabled {
+    display: flex;
+    cursor: default;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.ConfirmText {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.ConfirmTextDisabled {
+    color: rgb(93 93 93);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.TokenInsufficientBalance {
+    color: rgb(255 0 0 / 60%);
+    font-family: Inter;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+option {
+    background: rgb(45, 47, 48) !important;
+    color: white !important;
+}
+
+
+.titleSection {
+    margin: 0px;
+    font-family: BaselGrotesk, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    display: block;
+    color: white;
+}
+
+.networkNameContainer {
+    padding: 4px 8px 4px 4px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #8D8DFD;
+    cursor: pointer;
+}
+
+.networkName {
+    color: #8D8DFD;
+    cursor: pointer;
+}
+
+.step {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 999px;
+}
+
+.PoolOptionsContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    height: 40px;
+    padding: 5px;
+}
+
+.FeeWidth {
+    color: white;
+    display: inline;
+    margin-right: 5px;
+    font-size: 0.75rem;
+    border: 1px solid rgb(97, 97, 97);
+    border-radius: 5px;
+    padding: 3px;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.EditButton {
+    color: white;
+    display: inline;
+    margin-right: 5px;
+    font-size: 0.75rem;
+    border: 1px solid rgb(97, 97, 97);
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.ConfirmNextButton {
+    width: 110px;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    background: rgb(141, 141, 253);
+    height: 40px;
+}
+
+.BackButton {
+    width: 110px;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    border: 1px solid #8D8DFD;
+    height: 40px;
+}
+
+.step1Container {
+    width: 380px;
+}
+
+.step2Container {
+    margin: auto;
+    width: 460px;
+}
+
+.step3Container {
+    height: 314px;
+}
+
+@media (max-width: 400px) {
+
+    .MainContainer,
+    .ProtocolContainer {
+        width: 320px;
+    }
+
+    .Container {
+        width: 300px !important;
+    }
+
+    .step1Container,
+    .step2Container,
+    .step3Container {
+        width: 300px !important;
+    }
+
+    .ContainerPoolMode {
+        width: 140px;
+    }
+
+    .br-div {
+        display: none;
+    }
+
+    .TokenNameSection {
+        font-size: 10px;
+    }
+
+    .ContainerTokenA,
+    .ContainerTokenB {
+        margin-top: 10px !important;
+        width: 300px;
+    }
+
+    .ContainerDistributionMode {
+        width: 112px;
+    }
+
+    .DistributionNameSelect {
+        width: 90px;
+        font-size: 12px;
+    }
+}
