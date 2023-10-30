@@ -235,27 +235,15 @@
 }
 
 .ConfirmButton {
+    width: 110px;
     display: flex;
     cursor: pointer;
     justify-content: center;
     align-items: center;
     gap: 8px;
-    flex: 1 0 0;
-    align-self: stretch;
     border-radius: 4px;
-    background: #8D8DFD;
-}
-
-.ConfirmButtonDisabled {
-    display: flex;
-    cursor: default;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    flex: 1 0 0;
-    align-self: stretch;
-    border-radius: 4px;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgb(141, 141, 253);
+    height: 40px;
 }
 
 .ConfirmText {
@@ -366,6 +354,66 @@ option {
     gap: 8px;
     border-radius: 4px;
     background: rgb(141, 141, 253);
+    height: 40px;
+}
+
+.allowanceButton {
+    width: 200px;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    background: rgb(141, 141, 253);
+    height: 40px;
+}
+
+.confirmButtonDisabled {
+    width: 110px;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.1);
+    height: 40px;
+}
+
+.allowanceButtonDisabled {
+    width: 160px;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.1);
+    height: 40px;
+}
+
+.validateButton {
+    width: 110px;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    background: rgb(141, 141, 253);
+    height: 40px;
+}
+
+.validateButtonDisabled {
+    width: 110px;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.1);
     height: 40px;
 }
 
