@@ -442,6 +442,19 @@ option {
     height: 314px;
 }
 
+.SelectDistributionMode {
+    display: flex;
+    width: 188px;
+    height: 50px;
+    padding: 16px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
 @media (max-width: 400px) {
 
     .MainContainer,
@@ -484,5 +497,9 @@ option {
     .DistributionNameSelect {
         width: 90px;
         font-size: 12px;
+    }
+
+    .SelectDistributionMode {
+        width: 140px;
     }
 }
