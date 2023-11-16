@@ -281,7 +281,7 @@
 }
 
 .allowanceButtonDisabled {
-    width: 160px;
+    width: 200px;
     display: flex;
     cursor: pointer;
     justify-content: center;
