@@ -245,7 +245,7 @@
 }
 
 .validateButtonDisabled {
-    width: 110px;
+    width: 160px;
     display: flex;
     cursor: pointer;
     justify-content: center;
